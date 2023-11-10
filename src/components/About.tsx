@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="p-[100px] flex items-center justify-center min-h-screen"
+      className="lg:p-[100px] flex items-center justify-center min-h-screen"
     >
       <img
         src={profilePicture}
@@ -12,7 +12,7 @@ const About = () => {
         className="max-xl:hidden h-[65vh] w-[30vw] object-cover"
       />
       <div className="xl:ml-[120px]">
-        <p className="max-xl:text-center text-[24px]">
+        <p className="max-xl:text-center max-xl:text-[22px] text-[24px]">
           I am a highly motivated self-driven undergraduate with three months of
           software engineer intern.
           <br />
