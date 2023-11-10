@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   return (
     <>
@@ -9,8 +11,12 @@ const Navbar = () => {
         </div>
 
         <div className="flex gap-[60px]">
-          <a href="#about">About</a>
-          <p>Projects</p>
+          <Link to="about" smooth className="cursor-pointer">
+            About
+          </Link>
+          <Link to="projects" smooth className="cursor-pointer">
+            Projects
+          </Link>
           <p>Contact</p>
         </div>
       </div>

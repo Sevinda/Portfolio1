@@ -9,7 +9,7 @@ const About = () => {
       <img
         src={profilePicture}
         alt="Profile Picture"
-        className="max-xl:hidden h-[70vh] w-[30vw] object-cover"
+        className="max-xl:hidden h-[65vh] w-[30vw] object-cover"
       />
       <div className="xl:ml-[120px]">
         <p className="max-xl:text-center text-[24px]">
