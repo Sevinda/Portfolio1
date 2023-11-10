@@ -17,3 +17,8 @@ p,
 a {
   color: #fff;
 }
+
+p,
+a {
+  font-size: 20px;
+}
