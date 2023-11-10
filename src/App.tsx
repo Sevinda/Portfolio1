@@ -1,4 +1,3 @@
-import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -7,7 +6,6 @@ const App = () => {
     <div className=" px-[60px]">
       <Navbar />
       <Hero />
-      <About />
     </div>
   );
 };
