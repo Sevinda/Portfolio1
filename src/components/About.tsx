@@ -2,14 +2,16 @@ import profilePicture from "../assets/Gojo.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="mt-[50px] px-[100px] flex">
-      <img
-        src={profilePicture}
-        alt="profile picture"
-        className="h-[500px] w-[400px] object-cover"
-      />
-      <div className="w-[600px] pl-5">
-        <p>
+    <div id="about" className="pt-[50px] px-[100px]">
+      <h2>About Me</h2>
+
+      <div className="flex">
+        <img
+          src={profilePicture}
+          alt="profile picture"
+          className="h-[500px] w-[400px] object-cover"
+        />
+        <p className="w-[600px] pl-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           consectetur quod dolor dolore? Tempora mollitia laboriosam quibusdam
           aperiam, distinctio doloribus? Aperiam provident facilis natus
