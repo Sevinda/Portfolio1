@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <>
+    <nav>
       <div className="flex justify-between h-[90px] items-center max-sm:hidden">
         <div>
           <a href="/" className="text-[35px]">
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="h-[90px] flex items-center justify-center sm:hidden">
         <p>Portfolio Of</p>
       </div>
-    </>
+    </nav>
   );
 };
 
