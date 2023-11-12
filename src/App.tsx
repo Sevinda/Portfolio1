@@ -1,8 +1,9 @@
 import About from "./components/About";
 import Career from "./components/Career";
+import ContactBtn from "./components/ContactBtn";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import ProjectsContainer from "./components/ProjectsContainer";
+// import ProjectsContainer from "./components/ProjectsContainer";
 
 const App = () => {
   return (
@@ -22,8 +23,12 @@ const App = () => {
       </section>
 
       <section className="px-[60px]">
-        <ProjectsContainer />
+        <ContactBtn />
       </section>
+
+      {/* <section className="px-[60px]">
+        <ProjectsContainer />
+      </section> */}
     </div>
   );
 };

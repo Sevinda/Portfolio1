@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="lg:p-[100px] flex items-center justify-center min-h-screen"
+      className="lg:p-[165px] flex items-center justify-center"
     >
       <img
         src={profilePicture}
@@ -23,7 +23,7 @@ const About = () => {
           technologies which glows up the website
           <br />
           <br />
-          <span className="text-[19px] text-[#b0b0b0]">
+          <span className="text-[19px] text-[#787878]">
             Well in my spare time, you can catch me at a cafe with my laptop and
             a cup of coffee ☕ :)
           </span>
