@@ -3,7 +3,7 @@ import Career from "./components/Career";
 import ContactBtn from "./components/ContactBtn";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-// import ProjectsContainer from "./components/ProjectsContainer";
+import ProjectsContainer from "./components/ProjectsContainer";
 
 const App = () => {
   return (
@@ -26,9 +26,9 @@ const App = () => {
         <ContactBtn />
       </section>
 
-      {/* <section className="px-[60px]">
+      <section>
         <ProjectsContainer />
-      </section> */}
+      </section>
     </div>
   );
 };
