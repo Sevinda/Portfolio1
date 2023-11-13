@@ -1,39 +1,69 @@
-import project1 from "../assets/Gojo.jpg";
-
 interface Props {
   projectID: number;
+  heading: string;
+  description: string;
+  image: string;
+  github: string;
+  link: string;
 }
 
-const Project = ({ projectID }: Props) => {
+const Project = ({
+  projectID,
+  heading,
+  description,
+  image,
+  github,
+  link,
+}: Props) => {
   return (
-    <div className="px-[50px]">
+    <div className="px-[50px] mb-[70px]">
       {projectID % 2 == 0 ? (
-        <div className="flex flex-col gap-[50px] lg:flex-row justify-center items-center">
-          <div className="flex flex-col justify-center items-center gap-[20px]">
-            <h3>RAWG</h3>
-            <p className="text-center min-w-[300px] max-w-[400px]">
-              Built a front-end web application using react typescript. All of
-              the data is fetched using an API, and displayed on the website
+        <div className="flex flex-col gap-[110px] lg:flex-row justify-center items-center">
+          <div className="flex flex-col justify-center items-center gap-[10px]">
+            <a
+              href={link}
+              target="_blank"
+              className="text-[29px] font-bold underline"
+            >
+              {heading}
+            </a>
+            <p className="text-center min-w-[300px] max-w-[400px] text-[#787878]">
+              {description}
+              <br />
+              <br />
+              <a href={github} target="_blank">
+                Intersted? Explore
+              </a>
             </p>
           </div>
           <img
-            src={project1}
+            src={image}
             alt={"project" + projectID}
             className="w-[500px] object-cover"
           />
         </div>
       ) : (
-        <div className="flex flex-col gap-[50px] lg:flex-row justify-center items-center">
+        <div className="flex flex-col-reverse gap-[110px] lg:flex-row justify-center items-center">
           <img
-            src={project1}
+            src={image}
             alt={"project" + projectID}
             className="w-[500px] object-cover"
           />
-          <div className="flex flex-col-reverse justify-center items-center gap-[20px]">
-            <h3>RAWG</h3>
-            <p className="text-center min-w-[300px] max-w-[400px]">
-              Built a front-end web application using react typescript. All of
-              the data is fetched using an API, and displayed on the website
+          <div className="flex flex-col justify-center items-center gap-[10px]">
+            <a
+              href={link}
+              target="_blank"
+              className="text-[29px] font-bold underline"
+            >
+              {heading}
+            </a>
+            <p className="text-center min-w-[300px] max-w-[400px] text-[#787878]">
+              {description}
+              <br />
+              <br />
+              <a href={github} target="_blank">
+                Intrested? Explore
+              </a>
             </p>
           </div>
         </div>
