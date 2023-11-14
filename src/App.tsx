@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Career from "./components/Career";
+import Contact from "./components/Contact";
 import ContactBtn from "./components/ContactBtn";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -28,6 +29,10 @@ const App = () => {
 
       <section>
         <ProjectsContainer />
+      </section>
+
+      <section className="px-[60px]">
+        <Contact />
       </section>
     </div>
   );

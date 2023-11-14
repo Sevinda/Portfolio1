@@ -40,7 +40,7 @@ const ProjectsContainer = () => {
       <p className="mt-[25px] px-[20px] text-center text-[27px] text-[#787878]">
         Watch my contributions on
       </p>
-      <a href="https://github.com/sevinda" className="flex justify-center items-center font-bold mt-[50px] text-[120px] md:text-[200px] lg:text-[260px]">GitHub</a>
+      <a href="https://github.com/sevinda" className="flex justify-center items-center font-bold mt-[50px] text-[120px] md:text-[200px] lg:text-[260px] mb-[100px] ">GitHub</a>
     </div>
   );
 };

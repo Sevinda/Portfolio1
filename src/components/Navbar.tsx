@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex justify-between h-[90px] items-center max-sm:hidden">
         <div>
           <a href="/" className="text-[35px]">
-            Sevinda
+            Sevinda.
           </a>
         </div>
 
@@ -17,7 +17,9 @@ const Navbar = () => {
           <Link to="projects" smooth className="cursor-pointer">
             Projects
           </Link>
-          <p>Contact</p>
+          <Link to="contacts" smooth className="cursor-pointer">
+            Contact
+          </Link>
         </div>
       </div>
 
