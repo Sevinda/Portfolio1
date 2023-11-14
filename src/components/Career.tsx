@@ -1,7 +1,7 @@
 const Career = () => {
   return (
     <div>
-      <h2 className="mt-[70px] text-[80px] md:text-[135px] font-bold text-center">
+      <h2 className="mt-[70px] px-[10px] text-[80px] md:text-[125px] font-bold text-center">
         A glimpse at my career
       </h2>
 

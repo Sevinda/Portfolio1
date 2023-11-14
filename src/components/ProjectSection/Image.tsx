@@ -8,7 +8,7 @@ const Image = ({ projectID, image }: Props) => {
     <img
       src={image}
       alt={"project" + projectID}
-      className="w-[500px] object-cover"
+      className="w-[500px] object-cover lg:px-7"
     />
   );
 };

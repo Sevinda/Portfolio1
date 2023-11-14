@@ -21,7 +21,7 @@ const Project = ({
   return (
     <div className="px-[50px] mb-[70px]">
       {projectID % 2 == 0 ? (
-        <div className="flex flex-col gap-[110px] lg:flex-row justify-center items-center">
+        <div className="flex flex-col gap-[50px] lg:flex-row justify-center items-center">
           <Text
             link={link}
             heading={heading}
@@ -31,7 +31,7 @@ const Project = ({
           <Image projectID={projectID} image={image} />
         </div>
       ) : (
-        <div className="flex flex-col-reverse gap-[110px] lg:flex-row justify-center items-center">
+        <div className="flex flex-col-reverse gap-[50px] lg:flex-row justify-center items-center">
           <Image projectID={projectID} image={image} />
           <Text
             link={link}

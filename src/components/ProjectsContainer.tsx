@@ -33,6 +33,14 @@ const ProjectsContainer = () => {
         github="https://github.com/Sevinda/Spline-React-1"
         link="https://scp-spline3d.netlify.app/"
       />
+
+      <p className="mt-[200px] px-[20px] text-center text-[33px] font-semibold">
+        And many more coming up soon!
+      </p>
+      <p className="mt-[25px] px-[20px] text-center text-[27px] text-[#787878]">
+        Watch my contributions on
+      </p>
+      <a href="https://github.com/sevinda" className="flex justify-center items-center font-bold mt-[50px] text-[120px] md:text-[200px] lg:text-[260px]">GitHub</a>
     </div>
   );
 };
