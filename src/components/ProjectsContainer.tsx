@@ -14,14 +14,14 @@ const ProjectsContainer = () => {
         heading="RAWG"
         description="Built a front-end web application using react typescript. All of the data is fetched using an API, and displayed on the website"
         github="https://github.com/Sevinda/gamehubMosh"
-        image="/Gojo.jpg"
+        image="/rawg.png"
         link="https://game-hub-three-indol.vercel.app/"
       />
       <Project
         projectID={1}
         heading="Hadamu"
         description="Build a newspaper website using the MERN Stack. All of the data displayed is fetched a database i created using mongoDB."
-        image="/Gojo.jpg"
+        image="/hadamu.png"
         github="https://github.com/Sevinda/hadamu/"
         link="https://hadamu.netlify.app/"
       />
@@ -29,7 +29,7 @@ const ProjectsContainer = () => {
         projectID={2}
         heading="3D website"
         description="Built a front-end 3d website using react and spline where you can rotate the 3d object as you wish with the mouse."
-        image="/Gojo.jpg"
+        image="/3d.png"
         github="https://github.com/Sevinda/Spline-React-1"
         link="https://scp-spline3d.netlify.app/"
       />
@@ -40,7 +40,12 @@ const ProjectsContainer = () => {
       <p className="mt-[25px] px-[20px] text-center text-[27px] text-[#787878]">
         Watch my contributions on
       </p>
-      <a href="https://github.com/sevinda" className="flex justify-center items-center font-bold mt-[50px] text-[120px] md:text-[200px] lg:text-[260px] mb-[100px] ">GitHub</a>
+      <a
+        href="https://github.com/sevinda"
+        className="flex justify-center items-center font-bold mt-[50px] text-[120px] md:text-[200px] lg:text-[260px] mb-[100px] "
+      >
+        GitHub
+      </a>
     </div>
   );
 };
