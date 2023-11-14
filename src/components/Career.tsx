@@ -6,7 +6,7 @@ const Career = () => {
       </h2>
 
       <p className="px-[60px] my-[100px] lg:w-[700px] text-center text-[24px] m-auto text-[#787878]">
-        I have worked in&nbsp;
+        I have worked at&nbsp;
         <span className="text-white font-bold">Creative Software</span>&nbsp;as
         an intern for 3 months learning many new technologies and concepts.
         <br />
