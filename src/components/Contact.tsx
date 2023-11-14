@@ -43,7 +43,7 @@ const Contact = () => {
       </div>
       <a
         href="mailto:sevindacharukaperera@gmail.com"
-        className="mt-[50px] lg:mt-[150px] flex justify-center items-center font-bold text-[25px] md:text-[35px] lg:text-[40px]"
+        className="mt-[50px] lg:mt-[150px] flex justify-center items-center font-bold text-[22px] md:text-[35px] lg:text-[40px]"
       >
         sevindacharukaperera@gmail.com
       </a>
